@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSmart AI — Personal Product Recommender</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Animated Background -->
+    <div class="bg-wrap">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <div class="brand-icon"><i class="fas fa-bag-shopping"></i></div>
+            <span>ShopSmart <span class="ai-text">AI</span></span>
+        </div>
+        <div class="nav-right">
+            <div class="nav-pill"><i class="fas fa-brain"></i> Naive Bayes Powered</div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-badge">
+            <i class="fas fa-sparkles"></i> AI Powered Recommendations
+        </div>
+        <h1>Find Your <span class="grad-text">Perfect</span><br>Product Match</h1>
+        <p>Tell us about yourself and our Naive Bayes AI will recommend the best products just for you</p>
+
+        <!-- Floating Cards -->
+        <div class="floating-cards">
+            <div class="float-card fc1"><i class="fas fa-mobile-screen"></i> Smartphone</div>
+            <div class="float-card fc2"><i class="fas fa-laptop"></i> Laptop</div>
+            <div class="float-card fc3"><i class="fas fa-shirt"></i> Clothing</div>
+            <div class="float-card fc4"><i class="fas fa-shoe-prints"></i> Shoes</div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section">
+        <div class="form-card">
+
+            <!-- Progress Steps -->
+            <div class="progress-steps">
+                <div class="p-step active" id="ps1">
+                    <div class="p-circle">1</div>
+                    <span>Profile</span>
+                </div>
+                <div class="p-line"></div>
+                <div class="p-step" id="ps2">
+                    <div class="p-circle">2</div>
+                    <span>Preferences</span>
+                </div>
+                <div class="p-line"></div>
+                <div class="p-step" id="ps3">
+                    <div class="p-circle">3</div>
+                    <span>Results</span>
+                </div>
+            </div>
+
+            <h2>Tell Us About Yourself</h2>
+            <p class="form-subtitle">Fill in your details to get personalized recommendations</p>
+
+            <!-- Form Grid -->
+            <div class="form-grid">
+
+                <!-- Age -->
+                <div class="form-group">
+                    <label><i class="fas fa-user"></i> Age Group</label>
+                    <div class="select-wrap">
+                        <select id="age">
+                            <option value="">Select Age Group</option>
+                            <option value="Young">Young (18-30)</option>
+                            <option value="Middle">Middle (31-50)</option>
+                            <option value="Old">Senior (51+)</option>
+                        </select>
+                        <i class="fas fa-chevron-down select-arrow"></i>
+                    </div>
+                </div>
+
+                <!-- Budget -->
+                <div class="form-group">
+                    <label><i class="fas fa-wallet"></i> Budget Range</label>
+                    <div class="select-wrap">
+                        <select id="budget">
+                            <option value="">Select Budget</option>
+                            <option value="Low">Low (Under 5k)</option>
+                            <option value="Medium">Medium (5k-20k)</option>
+                            <option value="High">High (20k+)</option>
+                        </select>
+                        <i class="fas fa-chevron-down select-arrow"></i>
+                    </div>
+                </div>
+
+                <!-- Gender -->
+                <div class="form-group">
+                    <label><i class="fas fa-venus-mars"></i> Gender</label>
+                    <div class="gender-btns">
+                        <button class="gender-btn" onclick="selectGender('Male', this)">
+                            <i class="fas fa-mars"></i> Male
+                        </button>
+                        <button class="gender-btn" onclick="selectGender('Female', this)">
+                            <i class="fas fa-venus"></i> Female
+                        </button>
+                    </div>
+                    <input type="hidden" id="gender" value="">
+                </div>
+
+                <!-- Interest -->
+                <div class="form-group">
+                    <label><i class="fas fa-heart"></i> Interest Category</label>
+                    <div class="interest-grid">
+                        <button class="interest-btn" onclick="selectInterest('Electronics', this)">
+                            <i class="fas fa-microchip"></i> Electronics
+                        </button>
+                        <button class="interest-btn" onclick="selectInterest('Fashion', this)">
+                            <i class="fas fa-shirt"></i> Fashion
+                        </button>
+                        <button class="interest-btn" onclick="selectInterest('Sports', this)">
+                            <i class="fas fa-dumbbell"></i> Sports
+                        </button>
+                        <button class="interest-btn" onclick="selectInterest('Food', this)">
+                            <i class="fas fa-utensils"></i> Food
+                        </button>
+                    </div>
+                    <input type="hidden" id="interest" value="">
+                </div>
+
+            </div>
+
+            <!-- Submit Button -->
+            <button class="btn-recommend" onclick="getRecommendation()">
+                <i class="fas fa-wand-magic-sparkles"></i>
+                Get My Recommendations
+            </button>
+
+        </div>
+    </section>
+
+    <!-- Loading -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-box">
+            <div class="ai-spinner">
+                <div class="spinner-ring"></div>
+                <i class="fas fa-brain spinner-icon"></i>
+            </div>
+            <h3>AI is Thinking...</h3>
+            <p>Naive Bayes is analyzing your profile</p>
+        </div>
+    </div>
+
+    <!-- Result Section -->
+    <section class="result-section" id="resultSection">
+        <div class="result-card">
+
+            <!-- Result Header -->
+            <div class="result-header">
+                <div class="result-badge">
+                    <i class="fas fa-wand-magic-sparkles"></i> AI Recommendation
+                </div>
+                <h2>Your Perfect Match!</h2>
+                <p>Based on your profile, our AI recommends:</p>
+            </div>
+
+            <!-- Top Recommendation -->
+            <div class="top-recommendation" id="topRec">
+                <div class="top-rec-icon" id="topRecIcon"></div>
+                <div class="top-rec-info">
+                    <span class="top-label">Best Match</span>
+                    <h3 id="topRecName"></h3>
+                    <div class="confidence-wrap">
+                        <div class="conf-bar">
+                            <div class="conf-fill" id="confFill"></div>
+                        </div>
+                        <span id="confPercent"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Recommendations -->
+            <div class="other-recs">
+                <h4>Other Suggestions</h4>
+                <div class="rec-grid" id="recGrid"></div>
+            </div>
+<!-- Why Section -->
+<div class="why-section" id="whySection" style="display:none;">
+    <h4><i class="fas fa-lightbulb"></i> Why This Recommendation?</h4>
+    <p id="whyText"></p>
+<h4 style="margin-top:20px;"><i class="fas fa-chart-bar"></i> Approximate Contribution of Each Feature</h4>
+    <div id="contributions"></div>
+</div>
+
+<!-- Try Again -->
+            <!-- Try Again -->
+            <button class="btn-tryagain" onclick="tryAgain()">
+                <i class="fas fa-rotate-left"></i> Try Different Profile
+            </button>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-brand">
+            <i class="fas fa-bag-shopping"></i> ShopSmart AI
+        </div>
+        <p>Powered by Naive Bayes Machine Learning Algorithm</p>
+    </footer>
+
+    <script>
+        let selectedGender = '';
+        let selectedInterest = '';
+
+        function selectGender(value, btn) {
+            selectedGender = value;
+            document.getElementById('gender').value = value;
+            document.querySelectorAll('.gender-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        }
+
+        function selectInterest(value, btn) {
+            selectedInterest = value;
+            document.getElementById('interest').value = value;
+            document.querySelectorAll('.interest-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        }
+
+        const productIcons = {
+            'Smartphone': 'fas fa-mobile-screen',
+            'Laptop': 'fas fa-laptop',
+            'Tablet': 'fas fa-tablet-screen-button',
+            'Clothing': 'fas fa-shirt',
+            'Accessories': 'fas fa-gem',
+            'Shoes': 'fas fa-shoe-prints',
+            'Equipment': 'fas fa-dumbbell',
+            'Groceries': 'fas fa-basket-shopping'
+        };
+
+        async function getRecommendation() {
+            const age = document.getElementById('age').value;
+            const budget = document.getElementById('budget').value;
+            const gender = document.getElementById('gender').value;
+            const interest = document.getElementById('interest').value;
+
+            if (!age || !budget || !gender || !interest) {
+                alert('Please fill in all fields!');
+                return;
+            }
+
+            // Update progress
+            document.getElementById('ps2').classList.add('active');
+            document.getElementById('loadingOverlay').style.display = 'flex';
+
+            try {
+                await new Promise(resolve => setTimeout(resolve, 100));
+                const response = await fetch('index.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ age, budget, gender, interest })
+                });
+
+                const data = await response.json();
+                document.getElementById('loadingOverlay').style.display = 'none';
+
+                if (data.error) {
+                    alert('Error: ' + data.error);
+                    return;
+                }
+
+                showResult(data);
+
+            } catch (err) {
+                document.getElementById('loadingOverlay').style.display = 'none';
+                alert('Error! Make sure XAMPP Apache is running.');
+            }
+        }
+
+ function showResult(data) {
+    document.getElementById('ps3').classList.add('active');
+    document.getElementById('resultSection').style.display = 'block';
+
+    const icon = productIcons[data.recommended] || 'fas fa-box';
+    document.getElementById('topRecIcon').innerHTML = `<i class="${icon}"></i>`;
+    document.getElementById('topRecName').textContent = data.recommended;
+    document.getElementById('confPercent').textContent = data.confidence + '%';
+
+    setTimeout(() => {
+        document.getElementById('confFill').style.width = data.confidence + '%';
+    }, 300);
+
+    const grid = document.getElementById('recGrid');
+    grid.innerHTML = '';
+data.top3.forEach((item, index) => {
+        if (index === 0) return;
+        const icon = productIcons[item.product] || 'fas fa-box';
+        grid.innerHTML += `
+            <div class="rec-item">
+                <div class="rec-icon"><i class="${icon}"></i></div>
+                <div class="rec-info">
+                    <h5>${item.product}</h5>
+                    <div class="mini-bar">
+                        <div class="mini-fill" style="width: ${item.confidence}%"></div>
+                    </div>
+                    <span>${item.confidence}%</span>
+                </div>
+            </div>`;
+    });
+
+    document.getElementById('whySection').style.display = 'block';
+    document.getElementById('whyText').textContent = data.why;
+
+    const contribDiv = document.getElementById('contributions');
+    contribDiv.innerHTML = '';
+    data.contributions.forEach(c => {
+        const percent = (c.weight * 100).toFixed(0);
+        contribDiv.innerHTML += `
+            <div class="contrib-item">
+                <div class="contrib-label">
+                    <span>${c.feature}</span>
+                    <span>${percent}%</span>
+                </div>
+                <div class="contrib-bar">
+                    <div class="contrib-fill" style="width: ${percent}%"></div>
+                </div>
+            </div>`;
+    });
+
+    document.getElementById('resultSection').scrollIntoView({ behavior: 'smooth' });
+}
+
+       function tryAgain() {
+    document.getElementById('resultSection').style.display = 'none';
+    document.getElementById('whySection').style.display = 'none';
+    document.querySelectorAll('.p-step').forEach(s => s.classList.remove('active'));
+    document.getElementById('ps1').classList.add('active');
+    document.querySelectorAll('.gender-btn, .interest-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('age').value = '';
+    document.getElementById('budget').value = '';
+    document.getElementById('gender').value = '';
+    document.getElementById('interest').value = '';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+    </script>
+
+</body>
+</html>

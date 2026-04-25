@@ -1,0 +1,721 @@
+Age,Budget,Gender,Interest,Product
+Young,Low,Male,Food,Snacks
+Young,Medium,Female,Fashion,Sneakers
+Old,High,Female,Food,Food Subscription
+Young,Low,Male,Fashion,Casual Shirt
+Middle,High,Female,Electronics,Smartphone
+Middle,Low,Male,Electronics,Earbuds
+Middle,High,Female,Sports,Cycling Bike
+Middle,Low,Male,Food,Groceries
+Middle,Low,Male,Sports,Cricket Kit
+Middle,Low,Female,Fashion,Scarves
+Young,Medium,Male,Food,Restaurant Voucher
+Old,Low,Male,Sports,Skipping Rope
+Old,Medium,Male,Food,Cooking Set
+Young,Low,Female,Electronics,Smartphone
+Old,Medium,Female,Electronics,Earbuds
+Middle,Medium,Male,Electronics,Smartphone
+Young,High,Male,Food,Food Subscription
+Young,High,Female,Fashion,Designer Dress
+Old,Low,Female,Sports,Yoga Mat
+Young,Low,Male,Food,Restaurant Voucher
+Old,Medium,Female,Sports,Treadmill
+Young,Low,Male,Electronics,Earbuds
+Young,Low,Male,Fashion,Casual Shirt
+Young,High,Male,Fashion,Watches
+Young,High,Male,Electronics,Earbuds
+Middle,Low,Female,Fashion,Clothing
+Young,High,Female,Food,Food Subscription
+Young,High,Female,Fashion,Designer Dress
+Old,Medium,Female,Sports,Walking Shoes
+Young,High,Female,Electronics,Laptop
+Old,Low,Male,Food,Groceries
+Middle,Low,Male,Sports,Skipping Rope
+Middle,Low,Male,Sports,Skipping Rope
+Young,Medium,Female,Sports,Sports Shoes
+Middle,Low,Female,Electronics,Tablet
+Old,Medium,Female,Electronics,Earbuds
+Middle,High,Female,Sports,Cycling Bike
+Middle,High,Male,Sports,Gym Equipment
+Middle,Low,Female,Fashion,Accessories
+Young,Low,Male,Fashion,Sneakers
+Middle,High,Female,Sports,Cycling Bike
+Old,Low,Female,Electronics,Tablet
+Young,Medium,Male,Electronics,Smartphone
+Old,Low,Male,Fashion,Casual Shirt
+Old,Medium,Male,Sports,Walking Shoes
+Middle,High,Male,Food,Food Subscription
+Middle,Low,Female,Food,Groceries
+Middle,Medium,Male,Electronics,Smartphone
+Middle,Medium,Female,Food,Groceries
+Middle,Medium,Female,Sports,Yoga Mat
+Old,Low,Female,Electronics,Earbuds
+Young,Low,Female,Electronics,Smartphone
+Middle,Medium,Male,Sports,Sports Shoes
+Old,Medium,Male,Fashion,Clothing
+Middle,Medium,Female,Electronics,Tablet
+Middle,Low,Male,Food,Snacks
+Middle,High,Female,Food,Food Subscription
+Old,High,Female,Electronics,Tablet
+Middle,Low,Female,Sports,Yoga Mat
+Middle,Medium,Female,Fashion,Clothing
+Old,Medium,Female,Sports,Walking Shoes
+Young,Low,Male,Electronics,Smartphone
+Middle,Low,Female,Fashion,Scarves
+Middle,High,Male,Fashion,Formal Shoes
+Middle,Medium,Male,Fashion,Clothing
+Young,High,Female,Sports,Cycling Bike
+Old,Low,Male,Food,Groceries
+Young,High,Female,Electronics,Laptop
+Young,Medium,Female,Food,Snacks
+Old,Low,Female,Sports,Yoga Mat
+Old,Medium,Male,Food,Groceries
+Young,High,Female,Fashion,Handbag
+Middle,Low,Female,Food,Groceries
+Young,High,Female,Sports,Cycling Bike
+Young,Medium,Female,Fashion,Sneakers
+Old,Low,Male,Food,Groceries
+Middle,Medium,Female,Sports,Yoga Mat
+Old,Low,Female,Food,Groceries
+Young,Low,Male,Fashion,Sneakers
+Young,Low,Female,Electronics,Earbuds
+Young,High,Female,Food,Restaurant Voucher
+Middle,High,Female,Electronics,Laptop
+Young,Medium,Male,Sports,Cricket Kit
+Young,Low,Female,Sports,Yoga Mat
+Old,Low,Male,Fashion,Casual Shirt
+Young,Low,Female,Sports,Skipping Rope
+Old,Low,Male,Electronics,Earbuds
+Young,Low,Male,Electronics,Earbuds
+Young,High,Male,Sports,Gym Equipment
+Middle,Medium,Male,Fashion,Formal Shoes
+Old,Medium,Male,Electronics,Tablet
+Young,High,Male,Fashion,Watches
+Young,Low,Female,Sports,Yoga Mat
+Young,High,Female,Electronics,Laptop
+Middle,Medium,Female,Fashion,Scarves
+Middle,High,Male,Fashion,Watches
+Middle,High,Male,Food,Food Subscription
+Young,Medium,Male,Fashion,Sneakers
+Middle,High,Female,Electronics,Tablet
+Young,Medium,Male,Sports,Skipping Rope
+Young,Low,Male,Sports,Skipping Rope
+Old,Medium,Female,Food,Cooking Set
+Old,High,Male,Food,Cooking Set
+Middle,Medium,Female,Food,Cooking Set
+Young,Medium,Male,Electronics,Smartphone
+Middle,Low,Male,Food,Snacks
+Young,High,Male,Electronics,Laptop
+Young,Low,Female,Fashion,Accessories
+Young,High,Female,Sports,Sports Shoes
+Old,Low,Female,Fashion,Clothing
+Young,High,Female,Electronics,Laptop
+Young,High,Male,Food,Food Subscription
+Young,Low,Female,Food,Restaurant Voucher
+Old,Low,Male,Sports,Walking Shoes
+Young,Medium,Male,Food,Restaurant Voucher
+Old,High,Male,Sports,Treadmill
+Young,Medium,Female,Electronics,Smartphone
+Old,Medium,Female,Electronics,Earbuds
+Young,High,Male,Sports,Gym Equipment
+Middle,Medium,Male,Sports,Sports Shoes
+Young,Medium,Female,Sports,Yoga Mat
+Old,Medium,Female,Sports,Yoga Mat
+Old,High,Male,Sports,Treadmill
+Middle,High,Male,Electronics,Laptop
+Old,Medium,Male,Food,Cooking Set
+Young,High,Female,Electronics,Laptop
+Young,Low,Male,Electronics,Smartphone
+Old,Low,Female,Food,Cooking Set
+Young,Low,Female,Fashion,Scarves
+Young,Low,Female,Sports,Yoga Mat
+Middle,Medium,Male,Food,Groceries
+Old,High,Male,Sports,Treadmill
+Old,High,Male,Electronics,Laptop
+Middle,High,Female,Electronics,Tablet
+Old,High,Female,Food,Food Subscription
+Young,Low,Male,Electronics,Earbuds
+Old,High,Male,Food,Restaurant Voucher
+Middle,Low,Female,Fashion,Scarves
+Middle,High,Female,Fashion,Jewelry
+Old,Low,Male,Electronics,Tablet
+Middle,High,Male,Sports,Gym Equipment
+Young,High,Male,Electronics,Laptop
+Middle,Low,Male,Fashion,Clothing
+Young,Low,Female,Fashion,Accessories
+Middle,Low,Male,Fashion,Clothing
+Middle,Medium,Female,Electronics,Tablet
+Young,High,Female,Sports,Sports Shoes
+Young,Low,Male,Sports,Yoga Mat
+Young,Low,Female,Sports,Yoga Mat
+Young,Medium,Male,Sports,Sports Shoes
+Middle,Medium,Male,Food,Groceries
+Young,Medium,Male,Food,Restaurant Voucher
+Middle,Medium,Male,Sports,Cricket Kit
+Middle,Medium,Male,Food,Cooking Set
+Young,Low,Female,Electronics,Tablet
+Middle,Low,Female,Fashion,Accessories
+Old,Medium,Female,Food,Cooking Set
+Old,High,Female,Food,Food Subscription
+Young,Low,Female,Food,Groceries
+Old,Low,Male,Sports,Yoga Mat
+Middle,Low,Female,Sports,Yoga Mat
+Old,Low,Male,Electronics,Earbuds
+Old,Low,Female,Fashion,Scarves
+Middle,High,Male,Fashion,Watches
+Middle,Medium,Female,Fashion,Scarves
+Young,Medium,Female,Fashion,Handbag
+Young,Medium,Female,Electronics,Earbuds
+Old,High,Female,Fashion,Jewelry
+Old,High,Female,Fashion,Clothing
+Young,Medium,Male,Sports,Sports Shoes
+Old,Low,Female,Electronics,Earbuds
+Middle,Medium,Female,Sports,Yoga Mat
+Old,High,Male,Food,Cooking Set
+Young,Medium,Female,Electronics,Smartphone
+Middle,Low,Female,Food,Groceries
+Young,Low,Female,Food,Snacks
+Young,High,Male,Electronics,Laptop
+Young,Medium,Female,Sports,Sports Shoes
+Middle,Medium,Female,Sports,Treadmill
+Old,Medium,Male,Fashion,Watches
+Old,Medium,Female,Fashion,Clothing
+Young,Medium,Male,Sports,Cricket Kit
+Middle,Low,Female,Food,Groceries
+Middle,Medium,Male,Electronics,Smartphone
+Middle,Medium,Female,Fashion,Clothing
+Young,High,Male,Sports,Gym Equipment
+Middle,Low,Male,Electronics,Smartphone
+Middle,Medium,Female,Fashion,Scarves
+Young,High,Male,Fashion,Suit
+Middle,Medium,Male,Fashion,Formal Shoes
+Young,Medium,Female,Food,Restaurant Voucher
+Middle,Low,Female,Electronics,Earbuds
+Old,Medium,Male,Food,Groceries
+Old,High,Male,Sports,Treadmill
+Old,Low,Female,Food,Cooking Set
+Young,Low,Male,Food,Snacks
+Young,Medium,Male,Food,Snacks
+Young,Medium,Female,Sports,Sports Shoes
+Young,Medium,Female,Fashion,Sneakers
+Young,High,Male,Food,Food Subscription
+Middle,Low,Female,Food,Groceries
+Middle,Medium,Female,Sports,Yoga Mat
+Old,Low,Female,Fashion,Scarves
+Old,High,Female,Electronics,Tablet
+Young,Medium,Female,Fashion,Accessories
+Young,Medium,Male,Food,Snacks
+Middle,Low,Male,Electronics,Earbuds
+Middle,Medium,Male,Sports,Gym Equipment
+Old,Low,Male,Fashion,Clothing
+Young,Low,Female,Electronics,Earbuds
+Middle,High,Female,Electronics,Smartphone
+Old,Low,Male,Sports,Skipping Rope
+Old,High,Male,Fashion,Suit
+Old,High,Female,Electronics,Tablet
+Middle,Medium,Female,Sports,Sports Shoes
+Middle,High,Female,Fashion,Jewelry
+Middle,High,Male,Fashion,Suit
+Young,Medium,Male,Fashion,Casual Shirt
+Middle,Medium,Female,Electronics,Tablet
+Old,High,Female,Electronics,Earbuds
+Old,High,Male,Fashion,Suit
+Old,Medium,Female,Fashion,Scarves
+Middle,Low,Male,Fashion,Casual Shirt
+Young,Medium,Male,Electronics,Earbuds
+Middle,High,Male,Sports,Gym Equipment
+Young,Medium,Female,Fashion,Handbag
+Old,High,Female,Fashion,Jewelry
+Young,Medium,Male,Electronics,Earbuds
+Middle,Medium,Female,Food,Cooking Set
+Middle,Low,Female,Fashion,Scarves
+Middle,Low,Male,Fashion,Clothing
+Old,High,Female,Sports,Treadmill
+Young,Low,Male,Fashion,Casual Shirt
+Old,Low,Male,Sports,Skipping Rope
+Middle,Medium,Male,Electronics,Smartphone
+Young,Medium,Male,Fashion,Sneakers
+Young,Medium,Female,Food,Restaurant Voucher
+Middle,High,Male,Fashion,Watches
+Young,High,Male,Electronics,Smartphone
+Young,Medium,Female,Sports,Sports Shoes
+Old,Medium,Male,Food,Groceries
+Old,High,Female,Fashion,Jewelry
+Middle,High,Male,Fashion,Suit
+Old,Medium,Male,Food,Cooking Set
+Young,Low,Male,Fashion,Scarves
+Middle,High,Female,Food,Food Subscription
+Old,Medium,Male,Electronics,Earbuds
+Middle,Medium,Female,Electronics,Tablet
+Young,Medium,Female,Sports,Sports Shoes
+Old,Medium,Female,Sports,Yoga Mat
+Young,Low,Female,Fashion,Accessories
+Old,Low,Male,Food,Groceries
+Old,Low,Female,Food,Groceries
+Old,Low,Female,Sports,Walking Shoes
+Young,Low,Female,Sports,Yoga Mat
+Old,Medium,Male,Fashion,Formal Shoes
+Old,Low,Male,Sports,Skipping Rope
+Young,Low,Male,Electronics,Smartphone
+Middle,High,Female,Electronics,Laptop
+Young,Medium,Female,Fashion,Handbag
+Old,High,Female,Electronics,Tablet
+Old,Low,Female,Electronics,Earbuds
+Old,High,Female,Fashion,Jewelry
+Middle,High,Male,Electronics,Laptop
+Middle,High,Female,Food,Cooking Set
+Middle,Medium,Female,Food,Cooking Set
+Middle,Low,Female,Sports,Yoga Mat
+Old,High,Female,Electronics,Laptop
+Old,Low,Female,Fashion,Clothing
+Young,Low,Female,Food,Groceries
+Middle,High,Male,Fashion,Suit
+Young,High,Female,Sports,Yoga Mat
+Old,Medium,Male,Electronics,Smartphone
+Young,Low,Female,Fashion,Accessories
+Old,Medium,Male,Fashion,Watches
+Old,Medium,Male,Sports,Cricket Kit
+Young,Medium,Female,Food,Restaurant Voucher
+Middle,Low,Female,Sports,Yoga Mat
+Young,Low,Female,Fashion,Accessories
+Young,High,Female,Sports,Cycling Bike
+Young,High,Male,Sports,Gym Equipment
+Young,Low,Female,Electronics,Smartphone
+Young,Low,Male,Sports,Skipping Rope
+Young,Medium,Male,Electronics,Smartphone
+Middle,Low,Male,Electronics,Earbuds
+Old,High,Male,Sports,Treadmill
+Middle,Medium,Male,Sports,Cricket Kit
+Old,Medium,Male,Fashion,Watches
+Young,High,Female,Sports,Cycling Bike
+Old,Low,Female,Food,Groceries
+Middle,High,Male,Food,Food Subscription
+Young,Low,Male,Electronics,Earbuds
+Old,Medium,Female,Sports,Walking Shoes
+Young,Medium,Female,Sports,Sports Shoes
+Middle,Medium,Female,Food,Cooking Set
+Young,High,Male,Food,Food Subscription
+Old,Medium,Male,Fashion,Formal Shoes
+Old,Medium,Female,Food,Cooking Set
+Middle,Low,Male,Food,Cooking Set
+Old,Low,Female,Fashion,Scarves
+Old,High,Female,Sports,Walking Shoes
+Middle,Low,Male,Food,Groceries
+Old,Medium,Male,Electronics,Tablet
+Old,Low,Female,Food,Groceries
+Middle,Medium,Female,Food,Cooking Set
+Young,Medium,Female,Food,Restaurant Voucher
+Middle,Low,Female,Sports,Yoga Mat
+Old,High,Male,Fashion,Suit
+Young,High,Female,Food,Snacks
+Middle,Low,Female,Fashion,Scarves
+Young,High,Male,Fashion,Suit
+Middle,High,Female,Sports,Cycling Bike
+Middle,Low,Male,Food,Cooking Set
+Young,Low,Female,Sports,Sports Shoes
+Young,Medium,Female,Electronics,Smartphone
+Middle,Low,Female,Electronics,Earbuds
+Old,Low,Female,Sports,Walking Shoes
+Old,High,Female,Sports,Walking Shoes
+Old,Medium,Female,Fashion,Scarves
+Old,Low,Male,Food,Snacks
+Young,Low,Female,Sports,Yoga Mat
+Young,Low,Female,Food,Restaurant Voucher
+Young,Medium,Female,Fashion,Accessories
+Middle,Medium,Male,Sports,Gym Equipment
+Young,High,Female,Fashion,Jewelry
+Young,Low,Female,Electronics,Smartphone
+Young,Low,Female,Fashion,Accessories
+Old,Low,Female,Electronics,Earbuds
+Old,Low,Female,Fashion,Scarves
+Old,High,Female,Sports,Treadmill
+Middle,High,Female,Sports,Cycling Bike
+Old,Low,Female,Fashion,Scarves
+Middle,High,Male,Electronics,Laptop
+Young,Low,Male,Fashion,Casual Shirt
+Middle,Medium,Male,Food,Restaurant Voucher
+Old,Low,Male,Fashion,Clothing
+Young,Low,Male,Fashion,Scarves
+Old,High,Male,Electronics,Laptop
+Middle,Medium,Female,Electronics,Tablet
+Middle,Medium,Female,Food,Cooking Set
+Old,Low,Female,Fashion,Scarves
+Young,Low,Male,Sports,Skipping Rope
+Middle,Medium,Male,Fashion,Clothing
+Old,High,Female,Fashion,Jewelry
+Young,High,Male,Food,Restaurant Voucher
+Young,High,Male,Food,Food Subscription
+Young,Low,Female,Sports,Yoga Mat
+Middle,High,Female,Fashion,Designer Dress
+Middle,Low,Male,Electronics,Earbuds
+Old,High,Male,Sports,Walking Shoes
+Old,Low,Male,Sports,Walking Shoes
+Young,High,Female,Fashion,Handbag
+Middle,Medium,Male,Food,Restaurant Voucher
+Middle,High,Male,Food,Restaurant Voucher
+Young,Medium,Male,Fashion,Casual Shirt
+Young,Low,Female,Food,Snacks
+Old,High,Female,Sports,Treadmill
+Young,Medium,Male,Electronics,Smartphone
+Middle,Low,Male,Food,Cooking Set
+Old,Medium,Female,Sports,Walking Shoes
+Middle,Medium,Female,Sports,Sports Shoes
+Old,Low,Male,Food,Groceries
+Young,High,Male,Sports,Cricket Kit
+Middle,High,Female,Fashion,Jewelry
+Middle,High,Male,Sports,Gym Equipment
+Young,High,Male,Food,Food Subscription
+Young,High,Male,Food,Food Subscription
+Old,High,Male,Sports,Treadmill
+Old,High,Male,Food,Cooking Set
+Middle,Low,Female,Electronics,Earbuds
+Old,High,Male,Fashion,Watches
+Young,High,Female,Sports,Cycling Bike
+Old,Medium,Male,Fashion,Formal Shoes
+Young,Medium,Male,Fashion,Casual Shirt
+Old,Medium,Female,Electronics,Smartphone
+Young,Medium,Female,Fashion,Handbag
+Old,Low,Male,Electronics,Tablet
+Middle,Low,Female,Sports,Yoga Mat
+Middle,Medium,Female,Fashion,Clothing
+Middle,High,Male,Electronics,Smartphone
+Old,Low,Male,Fashion,Casual Shirt
+Middle,High,Female,Sports,Treadmill
+Old,Medium,Male,Food,Cooking Set
+Old,Low,Female,Sports,Walking Shoes
+Middle,High,Female,Food,Food Subscription
+Old,High,Female,Food,Food Subscription
+Middle,High,Male,Sports,Treadmill
+Middle,Medium,Male,Food,Groceries
+Young,Low,Female,Food,Groceries
+Young,High,Male,Sports,Gym Equipment
+Middle,Low,Female,Food,Cooking Set
+Old,Medium,Female,Electronics,Smartphone
+Old,High,Female,Food,Groceries
+Old,Low,Male,Fashion,Casual Shirt
+Middle,High,Male,Food,Restaurant Voucher
+Middle,Medium,Male,Fashion,Clothing
+Middle,Medium,Female,Sports,Sports Shoes
+Young,High,Female,Food,Food Subscription
+Middle,Medium,Male,Food,Restaurant Voucher
+Old,Low,Male,Sports,Walking Shoes
+Young,Medium,Female,Sports,Skipping Rope
+Young,Medium,Female,Sports,Skipping Rope
+Old,High,Female,Sports,Walking Shoes
+Middle,Low,Female,Sports,Yoga Mat
+Young,Low,Male,Food,Snacks
+Old,High,Male,Electronics,Smartphone
+Middle,Medium,Male,Fashion,Clothing
+Middle,Medium,Male,Electronics,Laptop
+Middle,Medium,Male,Electronics,Smartphone
+Old,High,Female,Food,Cooking Set
+Young,High,Female,Food,Snacks
+Middle,Medium,Female,Electronics,Tablet
+Young,Medium,Female,Food,Snacks
+Young,Medium,Female,Sports,Sports Shoes
+Middle,High,Male,Electronics,Laptop
+Young,Medium,Male,Food,Snacks
+Middle,High,Male,Fashion,Suit
+Young,Low,Male,Food,Snacks
+Old,High,Male,Fashion,Suit
+Middle,Low,Female,Food,Groceries
+Middle,Low,Female,Electronics,Earbuds
+Old,Low,Female,Fashion,Clothing
+Old,High,Male,Electronics,Tablet
+Old,Low,Female,Fashion,Clothing
+Old,High,Male,Food,Food Subscription
+Old,Low,Male,Fashion,Scarves
+Middle,Low,Female,Fashion,Scarves
+Young,Medium,Male,Fashion,Casual Shirt
+Young,Medium,Female,Food,Food Subscription
+Old,High,Male,Electronics,Tablet
+Old,High,Female,Electronics,Tablet
+Middle,Medium,Female,Fashion,Clothing
+Young,High,Male,Electronics,Smartphone
+Old,Medium,Female,Electronics,Smartphone
+Middle,High,Female,Fashion,Jewelry
+Young,High,Male,Electronics,Laptop
+Old,High,Female,Sports,Walking Shoes
+Middle,Low,Female,Fashion,Clothing
+Old,Low,Female,Electronics,Earbuds
+Old,Medium,Male,Electronics,Tablet
+Young,Low,Male,Sports,Skipping Rope
+Old,Low,Female,Food,Groceries
+Old,Medium,Male,Fashion,Watches
+Old,Low,Male,Food,Groceries
+Young,High,Female,Electronics,Smartphone
+Old,Low,Female,Sports,Yoga Mat
+Middle,High,Female,Fashion,Jewelry
+Young,High,Male,Sports,Sports Shoes
+Middle,Low,Female,Sports,Yoga Mat
+Old,High,Male,Electronics,Laptop
+Middle,High,Female,Sports,Sports Shoes
+Old,Medium,Female,Sports,Walking Shoes
+Middle,High,Female,Electronics,Tablet
+Middle,High,Female,Food,Cooking Set
+Young,High,Female,Electronics,Laptop
+Old,Medium,Female,Electronics,Tablet
+Old,Medium,Male,Food,Cooking Set
+Middle,Low,Male,Electronics,Earbuds
+Middle,Low,Male,Electronics,Earbuds
+Middle,High,Male,Electronics,Laptop
+Old,Low,Male,Electronics,Earbuds
+Old,Low,Female,Electronics,Earbuds
+Young,Medium,Male,Fashion,Sneakers
+Young,Medium,Male,Sports,Sports Shoes
+Old,Low,Male,Sports,Skipping Rope
+Young,Medium,Male,Sports,Cricket Kit
+Middle,High,Female,Food,Food Subscription
+Young,Low,Male,Sports,Skipping Rope
+Old,Medium,Female,Food,Cooking Set
+Old,High,Female,Sports,Walking Shoes
+Middle,Low,Male,Electronics,Earbuds
+Old,Low,Female,Food,Groceries
+Middle,Medium,Female,Fashion,Clothing
+Old,High,Male,Fashion,Formal Shoes
+Old,High,Female,Food,Cooking Set
+Middle,Low,Male,Sports,Skipping Rope
+Middle,High,Male,Food,Restaurant Voucher
+Young,Low,Male,Food,Snacks
+Old,High,Female,Food,Food Subscription
+Young,High,Female,Food,Restaurant Voucher
+Young,Medium,Male,Food,Restaurant Voucher
+Old,High,Male,Food,Cooking Set
+Middle,Low,Male,Fashion,Casual Shirt
+Middle,High,Male,Sports,Gym Equipment
+Young,Low,Male,Electronics,Earbuds
+Middle,High,Female,Electronics,Laptop
+Old,High,Male,Fashion,Suit
+Old,Medium,Female,Electronics,Tablet
+Old,Medium,Male,Food,Cooking Set
+Middle,High,Male,Fashion,Suit
+Old,Low,Male,Food,Groceries
+Middle,Low,Female,Food,Cooking Set
+Young,High,Male,Sports,Cricket Kit
+Old,Medium,Female,Fashion,Scarves
+Old,High,Male,Sports,Walking Shoes
+Middle,High,Male,Food,Restaurant Voucher
+Old,Medium,Female,Electronics,Tablet
+Young,High,Male,Sports,Cricket Kit
+Old,High,Male,Electronics,Laptop
+Middle,High,Male,Food,Food Subscription
+Middle,Low,Male,Fashion,Clothing
+Old,Low,Female,Sports,Yoga Mat
+Middle,Low,Male,Electronics,Earbuds
+Old,Medium,Female,Food,Cooking Set
+Middle,Low,Male,Fashion,Casual Shirt
+Young,Low,Female,Food,Groceries
+Young,High,Male,Sports,Cricket Kit
+Young,Low,Male,Sports,Skipping Rope
+Old,Medium,Male,Electronics,Earbuds
+Young,Medium,Female,Fashion,Handbag
+Middle,High,Female,Sports,Treadmill
+Old,Low,Male,Electronics,Earbuds
+Middle,High,Female,Food,Food Subscription
+Middle,Medium,Male,Sports,Sports Shoes
+Middle,Low,Female,Electronics,Earbuds
+Young,High,Male,Electronics,Smartphone
+Young,High,Male,Food,Food Subscription
+Middle,High,Female,Food,Cooking Set
+Middle,Medium,Female,Sports,Yoga Mat
+Old,Low,Female,Electronics,Earbuds
+Young,Low,Male,Sports,Skipping Rope
+Young,Low,Female,Sports,Skipping Rope
+Young,Medium,Male,Electronics,Smartphone
+Young,Low,Female,Food,Snacks
+Middle,High,Female,Food,Cooking Set
+Young,High,Male,Fashion,Suit
+Old,Medium,Male,Sports,Skipping Rope
+Old,Medium,Male,Sports,Cricket Kit
+Old,Medium,Female,Fashion,Clothing
+Young,Low,Female,Electronics,Smartphone
+Young,High,Female,Food,Snacks
+Old,Medium,Female,Food,Cooking Set
+Middle,Medium,Male,Sports,Sports Shoes
+Young,Low,Female,Fashion,Accessories
+Middle,Low,Male,Sports,Skipping Rope
+Young,Low,Male,Sports,Skipping Rope
+Old,Low,Female,Sports,Walking Shoes
+Old,Low,Female,Sports,Walking Shoes
+Young,Medium,Female,Electronics,Earbuds
+Old,Medium,Male,Food,Cooking Set
+Middle,High,Male,Electronics,Laptop
+Old,High,Female,Sports,Treadmill
+Old,High,Female,Food,Food Subscription
+Old,Medium,Male,Sports,Walking Shoes
+Old,Medium,Female,Food,Groceries
+Young,Low,Female,Fashion,Scarves
+Old,Medium,Female,Fashion,Scarves
+Young,High,Male,Food,Food Subscription
+Young,Low,Male,Sports,Sports Shoes
+Young,Low,Female,Electronics,Smartphone
+Middle,Medium,Female,Electronics,Tablet
+Young,High,Female,Electronics,Laptop
+Young,Medium,Female,Food,Snacks
+Young,High,Male,Fashion,Suit
+Old,High,Female,Fashion,Scarves
+Middle,Low,Female,Food,Groceries
+Old,High,Female,Food,Food Subscription
+Young,Medium,Male,Electronics,Earbuds
+Middle,High,Female,Food,Restaurant Voucher
+Old,Low,Male,Electronics,Earbuds
+Young,High,Female,Fashion,Handbag
+Old,Low,Male,Food,Snacks
+Old,High,Male,Food,Cooking Set
+Middle,Low,Male,Food,Groceries
+Old,Low,Female,Electronics,Tablet
+Old,High,Male,Sports,Treadmill
+Young,High,Male,Electronics,Laptop
+Young,High,Female,Electronics,Smartphone
+Middle,High,Male,Electronics,Laptop
+Middle,High,Male,Sports,Gym Equipment
+Middle,High,Female,Electronics,Laptop
+Old,Medium,Male,Electronics,Tablet
+Old,High,Male,Electronics,Laptop
+Young,High,Female,Sports,Cycling Bike
+Young,High,Female,Fashion,Handbag
+Young,Medium,Male,Sports,Sports Shoes
+Old,Medium,Female,Sports,Walking Shoes
+Middle,Medium,Female,Electronics,Tablet
+Young,Low,Female,Electronics,Earbuds
+Old,Low,Male,Fashion,Casual Shirt
+Old,High,Male,Food,Food Subscription
+Old,Medium,Male,Sports,Cricket Kit
+Middle,Low,Female,Food,Groceries
+Old,High,Female,Fashion,Jewelry
+Middle,High,Female,Fashion,Handbag
+Middle,High,Male,Sports,Gym Equipment
+Young,High,Female,Food,Food Subscription
+Old,Low,Female,Food,Cooking Set
+Old,High,Male,Fashion,Suit
+Middle,High,Female,Sports,Treadmill
+Old,High,Male,Electronics,Laptop
+Middle,Low,Female,Sports,Yoga Mat
+Middle,Medium,Male,Fashion,Clothing
+Old,High,Male,Food,Food Subscription
+Middle,Low,Male,Sports,Skipping Rope
+Young,Medium,Male,Food,Snacks
+Middle,High,Female,Fashion,Designer Dress
+Young,Low,Female,Fashion,Scarves
+Middle,Low,Female,Sports,Sports Shoes
+Middle,Medium,Male,Food,Groceries
+Young,High,Female,Food,Restaurant Voucher
+Middle,High,Female,Sports,Treadmill
+Old,High,Male,Electronics,Laptop
+Middle,Low,Male,Food,Snacks
+Young,Medium,Male,Sports,Cricket Kit
+Middle,Medium,Male,Electronics,Tablet
+Old,High,Female,Sports,Walking Shoes
+Young,Medium,Male,Fashion,Sneakers
+Middle,Low,Male,Food,Cooking Set
+Middle,High,Male,Fashion,Suit
+Young,Medium,Female,Food,Snacks
+Middle,Low,Male,Sports,Skipping Rope
+Middle,Low,Male,Electronics,Earbuds
+Middle,Low,Male,Fashion,Scarves
+Middle,Low,Female,Electronics,Earbuds
+Young,Low,Male,Electronics,Earbuds
+Middle,Medium,Female,Electronics,Tablet
+Young,High,Female,Fashion,Designer Dress
+Young,Low,Male,Food,Restaurant Voucher
+Old,Medium,Female,Electronics,Tablet
+Old,Low,Female,Sports,Yoga Mat
+Middle,High,Male,Sports,Gym Equipment
+Middle,Low,Female,Electronics,Earbuds
+Old,Low,Male,Electronics,Tablet
+Young,High,Male,Electronics,Laptop
+Middle,Low,Female,Electronics,Tablet
+Old,Medium,Female,Food,Groceries
+Middle,Low,Female,Electronics,Earbuds
+Young,Low,Male,Fashion,Sneakers
+Old,Medium,Male,Electronics,Earbuds
+Old,Medium,Female,Fashion,Clothing
+Old,Medium,Male,Sports,Walking Shoes
+Old,Medium,Female,Food,Groceries
+Old,Medium,Female,Fashion,Clothing
+Young,Medium,Male,Food,Restaurant Voucher
+Middle,High,Male,Sports,Gym Equipment
+Young,Medium,Female,Electronics,Smartphone
+Young,High,Female,Food,Restaurant Voucher
+Middle,Medium,Female,Food,Cooking Set
+Young,Low,Male,Electronics,Earbuds
+Young,Low,Male,Food,Groceries
+Old,Medium,Male,Electronics,Smartphone
+Young,Low,Male,Food,Groceries
+Young,Medium,Male,Fashion,Sneakers
+Middle,Medium,Male,Electronics,Laptop
+Middle,Medium,Male,Food,Restaurant Voucher
+Middle,Medium,Female,Electronics,Tablet
+Middle,High,Male,Food,Food Subscription
+Old,Low,Male,Fashion,Clothing
+Old,Medium,Female,Fashion,Scarves
+Middle,Medium,Female,Fashion,Handbag
+Old,High,Male,Sports,Treadmill
+Middle,High,Male,Food,Restaurant Voucher
+Old,Low,Male,Fashion,Scarves
+Young,Low,Male,Food,Snacks
+Middle,Medium,Male,Fashion,Formal Shoes
+Middle,High,Male,Electronics,Smartphone
+Old,Medium,Male,Sports,Walking Shoes
+Old,Low,Female,Food,Groceries
+Old,High,Female,Electronics,Tablet
+Middle,Medium,Male,Fashion,Formal Shoes
+Old,High,Male,Fashion,Suit
+Middle,Medium,Male,Electronics,Laptop
+Young,High,Male,Fashion,Watches
+Middle,Medium,Female,Food,Groceries
+Old,High,Male,Food,Food Subscription
+Middle,Medium,Male,Electronics,Smartphone
+Old,Medium,Male,Electronics,Tablet
+Middle,High,Female,Fashion,Jewelry
+Old,Medium,Male,Sports,Cricket Kit
+Young,Medium,Female,Electronics,Smartphone
+Young,Medium,Male,Electronics,Earbuds
+Young,Low,Male,Fashion,Casual Shirt
+Middle,High,Female,Electronics,Laptop
+Young,High,Male,Fashion,Watches
+Old,Low,Female,Electronics,Tablet
+Young,High,Female,Fashion,Jewelry
+Middle,Low,Male,Sports,Cricket Kit
+Middle,Medium,Male,Sports,Cricket Kit
+Old,High,Female,Fashion,Jewelry
+Middle,Medium,Male,Fashion,Formal Shoes
+Young,Medium,Female,Electronics,Earbuds
+Old,Medium,Female,Food,Cooking Set
+Old,Low,Male,Food,Snacks
+Middle,Medium,Female,Food,Cooking Set
+Middle,High,Female,Fashion,Designer Dress
+Young,Medium,Male,Fashion,Watches
+Middle,Medium,Male,Food,Restaurant Voucher
+Old,High,Female,Electronics,Laptop
+Old,Medium,Male,Sports,Walking Shoes
+Old,Low,Male,Sports,Skipping Rope
+Young,Medium,Female,Food,Restaurant Voucher
+Young,High,Male,Fashion,Suit
+Old,Medium,Male,Fashion,Watches
+Old,Medium,Male,Fashion,Watches
+Young,High,Male,Fashion,Watches
+Young,Low,Female,Food,Snacks
+Old,Medium,Female,Fashion,Scarves
+Young,High,Female,Electronics,Laptop
+Middle,Low,Male,Sports,Cricket Kit
+Middle,Low,Male,Fashion,Clothing
+Old,High,Male,Fashion,Suit
+Middle,High,Male,Electronics,Smartphone
+Old,Low,Male,Electronics,Tablet
+Old,High,Female,Fashion,Scarves
+Middle,Medium,Female,Fashion,Clothing
+Young,High,Female,Fashion,Designer Dress
+Old,Medium,Female,Sports,Walking Shoes
+Middle,Low,Male,Sports,Skipping Rope
+Young,Medium,Male,Food,Restaurant Voucher
+Young,Medium,Male,Electronics,Smartphone
+Young,Medium,Female,Electronics,Earbuds
+Middle,Medium,Female,Sports,Sports Shoes
+Old,Low,Male,Electronics,Smartphone
+Young,Medium,Female,Electronics,Earbuds
+Middle,Medium,Male,Sports,Cricket Kit
+Young,High,Female,Sports,Cycling Bike
+Middle,Low,Male,Fashion,Casual Shirt
+Young,Medium,Male,Sports,Sports Shoes
+Old,High,Female,Electronics,Laptop
